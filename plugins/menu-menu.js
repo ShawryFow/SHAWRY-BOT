@@ -80,15 +80,13 @@ let menu = `⌜ *${wm}* ⌟
 
 *Hola ${taguser}*
 
-□ *Creador: Mario*
-□ *Numero del creador: wa.me/5492266466080*
-□ *Numero del bot ofc: wa.me/573183650526*
+□ *Creador: Axiel*
+□ *Numero del creador: wa.me/528123422244*
+□ *Numero del bot ofc: wa.me/528180933455*
 □ *Tiempos activos :* *${uptime}*
 □ *Usuarios:* *${Object.keys(global.db.data.users).length}*
 □ *Registrado: ${rtotalreg} de ${totalreg}* ${(conn.user.jid == global.conn.user.jid ? '' : `\n□ *Soy un sub bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}
     
-□ *COMO INSTALAR EL BOT*
-https://youtu.be/O_j2q5xCg3A
 
 ◉ _*INFO DEL USUARIO*_
 □ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
@@ -102,9 +100,6 @@ https://youtu.be/O_j2q5xCg3A
 □ *⚓ Rango:* ${role}
 ${readMore}
 ┌───⊷ *INFO DEL BOT*
-┊□ _${usedPrefix}infobot_
-┊□ _${usedPrefix}grupos_
-┊□ _${usedPrefix}instalarbot_
 ┊□️ _${usedPrefix}menu2_
 ┊□ _${usedPrefix}estado_
 ┊□ _${usedPrefix}sc_
@@ -114,16 +109,6 @@ ${readMore}
 ┊□ _Términos y condiciones_
 └─────────────
 
-┌───⊷ *UNER UN BOT A TU GRUPO*
-┆ 🤖 _${usedPrefix}join *link del grupo*_ 
-┆ 🤖 _${usedPrefix}botemporal *link de grupo*_
-└─────────────
-
-┌───⊷ *SERBOT & JADIBOT*
-┆ 🤖 _${usedPrefix}serbot_
-┆ 🤖 _${usedPrefix}stop_
-┆ 🤖 _${usedPrefix}bots_
-└─────────────
 
 ┌───⊷ *JUEGOS*
 ┆ *conando para la diversión del tu Grupos*
@@ -171,6 +156,8 @@ ${readMore}
 ┆🕹️ _${usedPrefix}cancion_
 ┆🕹️ _${usedPrefix}pista_
 ┆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+⊱⋅ ──────────── ⋅⊰
 ┆ 💞 𝙋𝙖𝙧𝙚𝙟𝙖𝙨
 ┆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┆ *Declarate con alguien*
@@ -182,7 +169,7 @@ ${readMore}
 ┆❤️➺ _${usedPrefix}aceptar *@tag*_
 ┆❤️➺ _${usedPrefix}rechazar *@tag*_
 ┆❤️➺ _${usedPrefix}terminar *@tag*_
-└─────────────
+⊱⋅ ──────────── ⋅⊰
 
 ┌───⊷ *NUMERO DEL CREADOR*
 ┆🤖 _${usedPrefix}owner_
@@ -252,7 +239,7 @@ ${readMore}
 └─────────────
 
 ┌───⊷ *GRUPOS*
-┆ *Mejora tú Grupo con LoliBot*
+┆ *Mejora tú Grupo con The Shawry*
 ┆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┆💎 _${usedPrefix}add *<numero>*_
 ┆💎 _${usedPrefix}kick *<@tag>*_
@@ -479,7 +466,7 @@ ${readMore}
 ┆💵 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 └─────────────
 
-┌───⊷ *TOP EN LOLIBOT-MD*
+┌───⊷ *TOP EN The Shawry*
 ┆ *Averigua en que Top te encuentras!!*
 ┆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┆🏆➺ _${usedPrefix}top | lb | leaderboard_
@@ -576,7 +563,7 @@ ${readMore}
 ┆👑 _${usedPrefix}setppbot *<responder a imagen>*_
 ┆👑 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
 ┆ 👑 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
-└───────────────────`.trim()
+└─────────𝐒𝐡𝐚𝐖𝐫𝐲-𝐁𝐨𝐓──────────`.trim()
     conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
 	
 } catch (e) {
